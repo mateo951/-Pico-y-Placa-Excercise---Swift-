@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21ADBB01CFF78C9005DF17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21ADBAF1CFF78C9005DF17C /* AppDelegate.swift */; };
+		A21ADBB21CFF78C9005DF17C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21ADBB11CFF78C9005DF17C /* ViewController.swift */; };
+		A21ADBB51CFF78C9005DF17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21ADBB31CFF78C9005DF17C /* Main.storyboard */; };
+		A21ADBB71CFF78C9005DF17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21ADBB61CFF78C9005DF17C /* Assets.xcassets */; };
+		A21ADBBA1CFF78C9005DF17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21ADBB81CFF78C9005DF17C /* LaunchScreen.storyboard */; };
+		A21ADBC51CFF78CA005DF17C /* Should_I_take_the_bus_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21ADBC41CFF78CA005DF17C /* Should_I_take_the_bus_Tests.swift */; };
+		A23F47E51CFFE5C8009BFD55 /* Bicycle copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A23F47E41CFFE5C8009BFD55 /* Bicycle copy.jpg */; };
+		A23F47E91CFFE97A009BFD55 /* Impacted2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23F47E81CFFE97A009BFD55 /* Impacted2.0.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21ADBC11CFF78CA005DF17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21ADBA41CFF78C9005DF17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21ADBAB1CFF78C9005DF17C;
+			remoteInfo = "Should I take the bus?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A21ADBAC1CFF78C9005DF17C /* Should I take the bus?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Should I take the bus?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21ADBAF1CFF78C9005DF17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A21ADBB11CFF78C9005DF17C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A21ADBB41CFF78C9005DF17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21ADBB61CFF78C9005DF17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21ADBB91CFF78C9005DF17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21ADBBB1CFF78C9005DF17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21ADBC01CFF78CA005DF17C /* Should I take the bus?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Should I take the bus?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21ADBC41CFF78CA005DF17C /* Should_I_take_the_bus_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Should_I_take_the_bus_Tests.swift; sourceTree = "<group>"; };
+		A21ADBC61CFF78CA005DF17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23F47E41CFFE5C8009BFD55 /* Bicycle copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bicycle copy.jpg"; sourceTree = "<group>"; };
+		A23F47E81CFFE97A009BFD55 /* Impacted2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impacted2.0.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21ADBA91CFF78C9005DF17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21ADBBD1CFF78C9005DF17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21ADBA31CFF78C9005DF17C = {
+			isa = PBXGroup;
+			children = (
+				A21ADBAE1CFF78C9005DF17C /* Should I take the bus? */,
+				A21ADBC31CFF78CA005DF17C /* Should I take the bus?Tests */,
+				A21ADBAD1CFF78C9005DF17C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A21ADBAD1CFF78C9005DF17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21ADBAC1CFF78C9005DF17C /* Should I take the bus?.app */,
+				A21ADBC01CFF78CA005DF17C /* Should I take the bus?Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21ADBAE1CFF78C9005DF17C /* Should I take the bus? */ = {
+			isa = PBXGroup;
+			children = (
+				A21ADBAF1CFF78C9005DF17C /* AppDelegate.swift */,
+				A21ADBB11CFF78C9005DF17C /* ViewController.swift */,
+				A21ADBB31CFF78C9005DF17C /* Main.storyboard */,
+				A21ADBB61CFF78C9005DF17C /* Assets.xcassets */,
+				A23F47E41CFFE5C8009BFD55 /* Bicycle copy.jpg */,
+				A23F47E81CFFE97A009BFD55 /* Impacted2.0.ttf */,
+				A21ADBB81CFF78C9005DF17C /* LaunchScreen.storyboard */,
+				A21ADBBB1CFF78C9005DF17C /* Info.plist */,
+			);
+			path = "Should I take the bus?";
+			sourceTree = "<group>";
+		};
+		A21ADBC31CFF78CA005DF17C /* Should I take the bus?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A21ADBC41CFF78CA005DF17C /* Should_I_take_the_bus_Tests.swift */,
+				A21ADBC61CFF78CA005DF17C /* Info.plist */,
+			);
+			path = "Should I take the bus?Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21ADBAB1CFF78C9005DF17C /* Should I take the bus? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21ADBC91CFF78CA005DF17C /* Build configuration list for PBXNativeTarget "Should I take the bus?" */;
+			buildPhases = (
+				A21ADBA81CFF78C9005DF17C /* Sources */,
+				A21ADBA91CFF78C9005DF17C /* Frameworks */,
+				A21ADBAA1CFF78C9005DF17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Should I take the bus?";
+			productName = "Should I take the bus?";
+			productReference = A21ADBAC1CFF78C9005DF17C /* Should I take the bus?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21ADBBF1CFF78C9005DF17C /* Should I take the bus?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21ADBCC1CFF78CA005DF17C /* Build configuration list for PBXNativeTarget "Should I take the bus?Tests" */;
+			buildPhases = (
+				A21ADBBC1CFF78C9005DF17C /* Sources */,
+				A21ADBBD1CFF78C9005DF17C /* Frameworks */,
+				A21ADBBE1CFF78C9005DF17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21ADBC21CFF78CA005DF17C /* PBXTargetDependency */,
+			);
+			name = "Should I take the bus?Tests";
+			productName = "Should I take the bus?Tests";
+			productReference = A21ADBC01CFF78CA005DF17C /* Should I take the bus?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21ADBA41CFF78C9005DF17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mateo Villgomez";
+				TargetAttributes = {
+					A21ADBAB1CFF78C9005DF17C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 58U777E9MW;
+					};
+					A21ADBBF1CFF78C9005DF17C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 58U777E9MW;
+						TestTargetID = A21ADBAB1CFF78C9005DF17C;
+					};
+				};
+			};
+			buildConfigurationList = A21ADBA71CFF78C9005DF17C /* Build configuration list for PBXProject "Should I take the bus?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21ADBA31CFF78C9005DF17C;
+			productRefGroup = A21ADBAD1CFF78C9005DF17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21ADBAB1CFF78C9005DF17C /* Should I take the bus? */,
+				A21ADBBF1CFF78C9005DF17C /* Should I take the bus?Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21ADBAA1CFF78C9005DF17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21ADBBA1CFF78C9005DF17C /* LaunchScreen.storyboard in Resources */,
+				A23F47E51CFFE5C8009BFD55 /* Bicycle copy.jpg in Resources */,
+				A21ADBB71CFF78C9005DF17C /* Assets.xcassets in Resources */,
+				A21ADBB51CFF78C9005DF17C /* Main.storyboard in Resources */,
+				A23F47E91CFFE97A009BFD55 /* Impacted2.0.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21ADBBE1CFF78C9005DF17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21ADBA81CFF78C9005DF17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21ADBB21CFF78C9005DF17C /* ViewController.swift in Sources */,
+				A21ADBB01CFF78C9005DF17C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21ADBBC1CFF78C9005DF17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21ADBC51CFF78CA005DF17C /* Should_I_take_the_bus_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21ADBC21CFF78CA005DF17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21ADBAB1CFF78C9005DF17C /* Should I take the bus? */;
+			targetProxy = A21ADBC11CFF78CA005DF17C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21ADBB31CFF78C9005DF17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21ADBB41CFF78C9005DF17C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A21ADBB81CFF78C9005DF17C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21ADBB91CFF78C9005DF17C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21ADBC71CFF78CA005DF17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A21ADBC81CFF78CA005DF17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21ADBCA1CFF78CA005DF17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Should I take the bus?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maniapps.Should-I-take-the-bus-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A21ADBCB1CFF78CA005DF17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Should I take the bus?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maniapps.Should-I-take-the-bus-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A21ADBCD1CFF78CA005DF17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Should I take the bus?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maniapps.Should-I-take-the-bus-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Should I take the bus?.app/Should I take the bus?";
+			};
+			name = Debug;
+		};
+		A21ADBCE1CFF78CA005DF17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Should I take the bus?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Maniapps.Should-I-take-the-bus-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Should I take the bus?.app/Should I take the bus?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21ADBA71CFF78C9005DF17C /* Build configuration list for PBXProject "Should I take the bus?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21ADBC71CFF78CA005DF17C /* Debug */,
+				A21ADBC81CFF78CA005DF17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21ADBC91CFF78CA005DF17C /* Build configuration list for PBXNativeTarget "Should I take the bus?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21ADBCA1CFF78CA005DF17C /* Debug */,
+				A21ADBCB1CFF78CA005DF17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21ADBCC1CFF78CA005DF17C /* Build configuration list for PBXNativeTarget "Should I take the bus?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21ADBCD1CFF78CA005DF17C /* Debug */,
+				A21ADBCE1CFF78CA005DF17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21ADBA41CFF78C9005DF17C /* Project object */;
+}
